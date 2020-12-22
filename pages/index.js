@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import useSWR from 'swr'
 import Scrollspy from 'react-scrollspy'
 import { FaFacebookF, FaLinkedin, FaInstagram, FaGithub, FaWhatsapp } from 'react-icons/fa'
-import getGrade from '../lib/getGrade'
 
 const fetcher = (...args) => fetch(...args).then(res => res.json())
 const Index = () => {
