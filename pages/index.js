@@ -15,8 +15,6 @@ const Index = () => {
     return `https://wa.me/+5586998153359?text=Meu nome é ${string.nome}, ${string.assunto}. ${string.mensagem}`
   }
 
-  getGrade()
-
   const onChange = env => {
     const key = env.target.name;
     const value = env.target.value;
