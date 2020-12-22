@@ -1,0 +1,17 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.whatsapp {
+  width: 100%;
+}
+
+.card-project{
+  width: 22em;
+}
+
+@media (min-width: 320px) and (max-width:450px) {
+  .card-project {
+    width: 90%;
+  }
+}
